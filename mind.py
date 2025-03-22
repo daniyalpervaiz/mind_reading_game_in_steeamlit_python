@@ -2,7 +2,7 @@ import streamlit as st
 
 
 # For the sidebar with bold and larger font
-st.sidebar.markdown("<h2 style='font-size: 20px; font-weight: bold;'>Note: This game is played by 2 persons. One is you, and the other is Player. Player knows the trick of this game.</h2>", unsafe_allow_html=True)
+st.sidebar.markdown("<h2 style='font-size: 20px; font-weight: bold;'>Note: This game is played by 2 persons. One is you, and the other is Player(who is in front of you). Player knows the trick of this game.</h2>", unsafe_allow_html=True)
 st.sidebar.markdown("<h2 style='font-size: 18px; font-weight: bold; color:blue;'>How to play this game:</h2>", unsafe_allow_html=True)
 st.sidebar.markdown("<h4 style='font-size: 16px; font-weight: bold;'>Step 1: Enter the number which you are thinking.</h4>", unsafe_allow_html=True)
 st.sidebar.markdown("<h4 style='font-size: 16px; font-weight: bold;'>Step 2: Enter the same number of your friend which you are thinking for yourself.</h4>", unsafe_allow_html=True)
